@@ -1,0 +1,17 @@
+.contact{
+    text-align: center;
+    color: #212EA0;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin:70px 0px 30px;
+    padding-left: 7%;
+}
+
+.contact h2{
+    font-size: 32px;
+    color: #000f38;
+    margin-top: 5px;
+    text-transform: none;
+    
+}

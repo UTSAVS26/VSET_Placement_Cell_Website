@@ -1,0 +1,23 @@
+.degrees{
+    margin: 80px auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.degrees img{
+    width: 100%;
+    border-radius: 30px;
+    display: block;
+    padding: 20px;
+}
+
+.degrees{
+    flex-basis: 31%;
+    position: relative;
+}
+
+.degrees:hover{
+    opacity: 1;
+}
