@@ -12,9 +12,13 @@ import Coordinators from './pages/Coordinators/Coordinators';
 import Stories from './pages/Stories/Stories';
 import Contact from './pages/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+import CarouselComponent from './Components/Carousel/CarouselGallery';
+import Timeline from './Components/Timeline/Timeline'
 
 const App = () => {
   return (
+    // <Timeline />
+    // <CarouselComponent />
     <Router>
       <Navbar />
       <Routes>

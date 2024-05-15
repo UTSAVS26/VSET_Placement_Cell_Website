@@ -1,9 +1,10 @@
 import React from 'react';
+import Timeline from '../../Components/Timeline/Timeline'
 
 const RecruitmentProcess = () => {
     return (
         <div className='recruitprocess'>
-            <h2>Hi</h2>
+            <Timeline />
         </div>
     );
 }
