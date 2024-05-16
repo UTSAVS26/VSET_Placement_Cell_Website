@@ -5,7 +5,7 @@ import { MdWork, MdSchool, MdCheckCircle, MdAssessment, MdHandshake } from "reac
 
 function Timeline() {
     return (
-        <div style={{ marginTop: '100px' }}>
+        <div style={{ marginTop: '95px', backgroundColor: "#3a3a3a" }}>
             <VerticalTimeline lineColor="#fff">
                 <VerticalTimelineElement
                     contentStyle={{ backgroundColor: "#34495e", color: "#fff" }}

@@ -16,7 +16,7 @@ const Hero = () => {
       <Navbar />
       <div>
         <div className="w-screen text-white flex items-center justify-center hero" style={{ paddingTop: "350px" }}>
-          <div className="text-center max-w-[1000px] pl-[70px] pb-[200px] h-full flex flex-col items-center justify-center">
+          <div className="text-center max-w-[800px] pl-[70px] pb-[200px] h-full flex flex-col items-center justify-center">
             <h2 className="text-[60px] font-bold mb-[20px]">
               Welcome to VSE&T Placement Cell
             </h2>
@@ -57,21 +57,6 @@ const Hero = () => {
                 <Link to="/RecruitmentProcess">
                   <button className="bg-white text-black p-[14px] font-[16px] rounded-[30px] m-[10px] pointer hover:bg-[#7c7d8b]">
                     Recruitment Process
-                  </button>
-                </Link>
-                <Link to="/Coordinators">
-                  <button className="bg-white text-black p-[14px] font-[16px] rounded-[30px] m-[10px] pointer hover:bg-[#7c7d8b]">
-                    Coordinators
-                  </button>
-                </Link>
-                <Link to="/Stories">
-                  <button className="bg-white text-black p-[14px] font-[16px] rounded-[30px] m-[10px] pointer hover:bg-[#7c7d8b]">
-                    Student Stories
-                  </button>
-                </Link>
-                <Link to="/Contact">
-                  <button className="bg-white text-black p-[14px] font-[16px] rounded-[30px] m-[10px] pointer hover:bg-[#7c7d8b]">
-                    Contact Us
                   </button>
                 </Link>
               </div>
