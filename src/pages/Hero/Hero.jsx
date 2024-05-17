@@ -13,7 +13,6 @@ const Hero = () => {
 
   return (
     <>
-      <Navbar />
       <div>
         <div className="w-screen text-white flex items-center justify-center hero" style={{ paddingTop: "350px" }}>
           <div className="text-center max-w-[800px] pl-[70px] pb-[200px] h-full flex flex-col items-center justify-center">

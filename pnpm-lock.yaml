@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@heroicons/react':
+        specifier: ^2.1.3
+        version: 2.1.3(react@18.3.1)
       autoprefixer:
         specifier: ^10.4.19
         version: 10.4.19(postcss@8.4.38)
@@ -1092,6 +1095,11 @@ packages:
   '@hapi/topo@3.1.6':
     resolution: {integrity: sha512-tAag0jEcjwH+P2quUfipd7liWCNX2F8NvYjQp2wtInsZxnMlypdw0FtAOLxtvvkO+GSRRbmNi8m/5y42PQJYCQ==}
     deprecated: This version has been deprecated and is no longer supported or maintained
+
+  '@heroicons/react@2.1.3':
+    resolution: {integrity: sha512-fEcPfo4oN345SoqdlCDdSa4ivjaKbk0jTd+oubcgNxnNgAfzysfwWfQUr+51wigiWHQQRiZNd1Ao0M5Y3M2EGg==}
+    peerDependencies:
+      react: '>= 16'
 
   '@humanwhocodes/config-array@0.11.14':
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
@@ -8503,6 +8511,10 @@ snapshots:
   '@hapi/topo@3.1.6':
     dependencies:
       '@hapi/hoek': 8.5.1
+
+  '@heroicons/react@2.1.3(react@18.3.1)':
+    dependencies:
+      react: 18.3.1
 
   '@humanwhocodes/config-array@0.11.14':
     dependencies:
