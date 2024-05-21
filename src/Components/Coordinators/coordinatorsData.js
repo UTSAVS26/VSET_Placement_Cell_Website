@@ -27,6 +27,34 @@ export const facultyCoordinators = [
       email: 'emily.brown@example.com',
       image: 'https://via.placeholder.com/150',
     },
+    {
+      id: 5,
+      name: 'John Doe',
+      department: 'Computer Science',
+      email: 'john.doe@example.com',
+      image: 'https://via.placeholder.com/150',
+    },
+    {
+      id: 6,
+      name: 'Jane Smith',
+      department: 'Electrical Engineering',
+      email: 'jane.smith@example.com',
+      image: 'https://via.placeholder.com/150',
+    },
+    {
+      id: 7,
+      name: 'Michael Johnson',
+      department: 'Mechanical Engineering',
+      email: 'michael.johnson@example.com',
+      image: 'https://via.placeholder.com/150',
+    },
+    {
+      id: 8,
+      name: 'Emily Brown',
+      department: 'Civil Engineering',
+      email: 'emily.brown@example.com',
+      image: 'https://via.placeholder.com/150',
+    },
   ];
   
   export const studentCoordinators = [
@@ -53,6 +81,34 @@ export const facultyCoordinators = [
     },
     {
       id: 4,
+      name: 'William Wilson',
+      batch: '2023',
+      branch: 'Civil Engineering',
+      image: 'https://via.placeholder.com/150',
+    },
+    {
+      id: 5,
+      name: 'Alice Johnson',
+      batch: '2023',
+      branch: 'Computer Science',
+      image: 'https://via.placeholder.com/150',
+    },
+    {
+      id: 6,
+      name: 'Bob Williams',
+      batch: '2023',
+      branch: 'Electrical Engineering',
+      image: 'https://via.placeholder.com/150',
+    },
+    {
+      id: 7,
+      name: 'Emma Davis',
+      batch: '2023',
+      branch: 'Mechanical Engineering',
+      image: 'https://via.placeholder.com/150',
+    },
+    {
+      id: 8,
       name: 'William Wilson',
       batch: '2023',
       branch: 'Civil Engineering',

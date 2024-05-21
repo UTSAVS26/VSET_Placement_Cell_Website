@@ -1,23 +1,52 @@
-import React from 'react'
-import './CDC.css'
-import gallery_1 from '../../assets/gallery-1.png'
-import gallery_2 from '../../assets/gallery-2.png'
-import gallery_3 from '../../assets/gallery-3.png'
-import gallery_4 from '../../assets/gallery-4.png'
-import white_arrow from '../../assets/white-arrow.png'
+import React from 'react';
+import Carousel from '../../Components/Carousel/CarouselGallery';
+// Ensure you import the images you are using
+import about_img from '../../assets/about.png';
+import play_icon from '../../assets/play-icon.png';
 
 const CDC = () => {
   return (
-    <div className='cdc'>
-        <div className='gallery'>
-            <img src={gallery_1} alt=''/>
-            <img src={gallery_2} alt=''/>
-            <img src={gallery_3} alt=''/>
-            <img src={gallery_4} alt=''/>
+    <div className='w-full'>
+      <div className="container mx-auto px-4" style={{ marginTop: '150px' }}>
+        <div className="about-container mb-20">
+          <div className="about flex items-center justify-between">
+            <div className="about-left flex-1 relative">
+              <img src={about_img} alt="" className="about-img w-full rounded-lg" />
+              <img
+                src={play_icon}
+                alt=""
+                className="play-icon w-16 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              />
+            </div>
+            <div className="about-right flex-1 pl-12">
+              <h3 className="font-bold text-blue-700 text-lg pb-2">About</h3>
+              <h2 className="text-3xl font-bold">Career Development Cell</h2>
+              <p className="text-gray-700 text-base mb-4">
+                At VSE&T, we believe in nurturing tomorrow's leaders today. With a focus on providing quality education and
+                holistic development, we prepare our students to face the challenges of the future. Our dedicated faculty,
+                state-of-the-art infrastructure, and emphasis on practical learning ensure that our students are
+                well-equipped to excel in their chosen fields.
+              </p>
+              <p className="text-gray-700 text-base mb-4">
+                With a rich history of academic excellence and a commitment to innovation, VSE&T is more than just an
+                educational institution; it's a community where students are encouraged to explore their passions, expand
+                their horizons, and reach their full potential.
+              </p>
+              <p className="text-gray-700 text-base">Join us at VSE&T and embark on a journey of discovery, growth, and success.</p>
+            </div>
+          </div>
         </div>
-        <button className='btn dark-btn'>See more here<img src={white_arrow} alt=''/></button>
+      </div>
+      <div>
+        <header className='text-center py-8'>
+          <h1 className='text-4xl font-bold'>Our Campus</h1>
+        </header>
+        <div className='flex justify-center py-8'>
+          <Carousel />
+        </div>
+      </div>
     </div>
   )
 }
 
-export default CDC
+export default CDC;
