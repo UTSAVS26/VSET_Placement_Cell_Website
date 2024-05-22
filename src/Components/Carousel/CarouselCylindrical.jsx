@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import img1 from "../../assets/Hero.png";
 
-const images = [img1, img1, img1]; // Assuming you have three images
+const images = [img1, img1, img1];
 const intervalDuration = 5000; // Interval duration in milliseconds
 
 const CarouselCylindrical = () => {
@@ -26,7 +26,7 @@ const CarouselCylindrical = () => {
         }, intervalDuration);
 
         return () => clearInterval(interval);
-    }, []); // Runs only once when the component mounts
+    }, []);
 
     return (
         <div className="relative w-full flex flex-col justify-center items-center">
@@ -66,13 +66,13 @@ const CarouselCylindrical = () => {
             <div className="mt-8 text-center w-[1240px] mx-auto">
                 <h2 className="text-4xl font-bold mb-4">Nurturing Tomorrow's Leaders Today</h2>
                 <p className="text-gray-700 text-justify text-lg mb-4">
-                    At VSE&T, we believe in nurturing tomorrow's leaders today. With a focus on providing quality education and holistic development, we prepare our students to face the challenges of the future. Our dedicated faculty, state-of-the-art infrastructure, and emphasis on practical learning ensure that our students are well-equipped to excel in their chosen fields. With a rich history of academic excellence and a commitment to innovation, VSE&T is more than just an educational institution; it's a community where students are encouraged to explore their passions, expand their horizons, and reach their full potential. Join us at VSE&T and embark on a journey of discovery, growth, and success.
+                    At Vivekananda Institute of Professional Studies - Technical Campus, we are committed to providing our students with a balanced education that combines theoretical knowledge with practical skills. We believe that this approach is essential for preparing our students for success in their chosen careers.
                 </p>
                 <p className="text-gray-700 text-justify text-lg mb-4">
-                    Our diverse range of programs caters to students of all interests and backgrounds. Whether you're passionate about science, arts, technology, or humanities, VSE&T provides a supportive environment where you can thrive and pursue your passions. Our hands-on approach to learning, coupled with opportunities for research and internships, ensures that our graduates are well-prepared for the demands of the modern workforce.
+                    In addition to academic rigor, we also encourage our students to participate in extracurricular activities that help them develop important soft skills such as teamwork, communication, and leadership. We believe that these skills are essential for success in today's rapidly changing world.
                 </p>
                 <p className="text-gray-700 text-justify text-lg mb-4">
-                    Additionally, we prioritize the personal growth and well-being of our students. Through mentorship programs, counseling services, and extracurricular activities, we foster a sense of community and belonging on campus. At VSE&T, we're not just shaping minds; we're nurturing the leaders of tomorrow who will make a positive impact on society.
+                    While we are proud of the fact that many of our students secure successful campus placements each year, we believe that the true measure of our success is the impact that our students have on the world around them. Our students are valued for their academic achievements, personal growth, and commitment to making a positive difference in their communities. We are confident that they will go on to make valuable contributions to any organization they join, and we are proud to be a part of their journey.
                 </p>
             </div>
         </div>

@@ -16,7 +16,7 @@ const Message = () => {
             />
           </div>
           <div className="about-right flex-6 pl-12">
-            <h2 className="text-3xl font-bold">Mesaage from the Vice-Chairperson</h2>
+            <h2 className="text-3xl font-bold">Message from the Vice-Chairperson</h2>
             <h3 className="font-bold text-blue-700 text-lg pb-2">Name</h3>
             <p className="text-gray-700 text-base mb-4">
               At VSE&T, we believe in nurturing tomorrow's leaders today. With a focus on providing quality education and
@@ -42,7 +42,7 @@ const Message = () => {
             />
           </div>
           <div className="about-right flex-6 pr-12">
-            <h2 className="text-3xl font-bold">Mesaage from the Placement Officer</h2>
+            <h2 className="text-3xl font-bold">Message from the Placement Officer</h2>
             <h3 className="font-bold text-blue-700 text-lg pb-2">Name</h3>
             <p className="text-gray-700 text-base mb-4">
               At VSE&T, we believe in nurturing tomorrow's leaders today. With a focus on providing quality education and

@@ -1,6 +1,5 @@
 import React from 'react';
 import Carousel from '../../Components/Carousel/CarouselGallery';
-// Ensure you import the images you are using
 import about_img from '../../assets/about.png';
 import play_icon from '../../assets/play-icon.png';
 
@@ -22,15 +21,13 @@ const CDC = () => {
               <h3 className="font-bold text-blue-700 text-lg pb-2">About</h3>
               <h2 className="text-3xl font-bold">Career Development Cell</h2>
               <p className="text-gray-700 text-base mb-4">
-                At VSE&T, we believe in nurturing tomorrow's leaders today. With a focus on providing quality education and
-                holistic development, we prepare our students to face the challenges of the future. Our dedicated faculty,
-                state-of-the-art infrastructure, and emphasis on practical learning ensure that our students are
-                well-equipped to excel in their chosen fields.
+                The Career Development Cell at VIPS-TC is firmly committed to empowering students to achieve their professional aspirations. We prioritize career guidance, skill development, and industry exposure to ensure that every student is well-equipped to succeed in the competitive job market. Through workshops, seminars, and placement assistance, we aim to bridge the gap between academia and industry, nurturing talent and fostering a culture of innovation and excellence.
               </p>
               <p className="text-gray-700 text-base mb-4">
-                With a rich history of academic excellence and a commitment to innovation, VSE&T is more than just an
-                educational institution; it's a community where students are encouraged to explore their passions, expand
-                their horizons, and reach their full potential.
+                The Career Development Centre (CDC) is dedicated to preparing students for the demands of the modern workforce. We offer a range of services to help students develop the skills and knowledge they need to succeed in their chosen careers. Our team of experienced professionals is available to provide personalized career guidance, helping students to explore their options and make informed decisions about their future. In addition to one-on-one guidance, we also organize a variety of workshops and seminars on topics such as entrepreneurship, career planning, industry exposure, and interview skills. These events are designed to give students a broader understanding of the industry and to provide them with practical tools and techniques they can use to enhance their employability.
+              </p>
+              <p className="text-gray-700 text-base mb-4">
+                With state-of-the-art infrastructure and facilities at VIPS-TC, we invite leaders from the corporate world & provide them an exceptional recruitment experience. We forge a vital connection between campus and industry. CDC acts as a mentor and counsellor to give students access to the best professional prospects in the industry thus evolving innovative and dynamic leaders.
               </p>
               <p className="text-gray-700 text-base">Join us at VSE&T and embark on a journey of discovery, growth, and success.</p>
             </div>
