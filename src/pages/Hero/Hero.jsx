@@ -15,11 +15,11 @@ const Hero = () => {
     <>
       <div>
         <div className="w-screen text-white flex items-center justify-center hero" style={{ paddingTop: "350px" }}>
-          <div className="text-center max-w-[800px] pl-[70px] pb-[200px] h-full flex flex-col items-center justify-center">
-            <h2 className="text-[60px] font-bold mb-[20px]">
+          <div className="text-center max-w-[800px] px-[20px] pb-[200px] h-full flex flex-col items-center justify-center">
+            <h2 className="text-[40px] md:text-[60px] font-bold mb-[20px]">
               Welcome to VSE&T Placement Cell
             </h2>
-            <p className="max-w-[700px] mt-[10px] mb-[20px] mx-auto leading-4">
+            <p className="max-w-[700px] mt-[10px] mb-[20px] mx-auto leading-6 md:leading-4">
               Most happening things occur in placement cell.
             </p>
             <button className="bg-white text-black p-[14px] font-[16px] rounded-[30px] pointer inline-flex items-center justify-center hover:bg-[#7c7d8b]" onClick={handleExploreClick}>
@@ -35,7 +35,7 @@ const Hero = () => {
                 </Link>
                 <Link to="/CDC">
                   <button className="bg-white text-black p-[14px] font-[16px] rounded-[30px] m-[10px] pointer hover:bg-[#7c7d8b]">
-                    Career Development Cell
+                    Career Development Center
                   </button>
                 </Link>
                 <Link to="/Recruit">

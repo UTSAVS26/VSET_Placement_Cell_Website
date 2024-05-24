@@ -6,18 +6,18 @@ import play_icon from '../../assets/play-icon.png';
 const CDC = () => {
   return (
     <div className='w-full'>
-      <div className="container mx-auto px-4" style={{ marginTop: '150px' }}>
+      <div className="container mx-auto px-4 lg:px-0" style={{ marginTop: '150px' }}>
         <div className="about-container mb-20">
-          <div className="about flex items-center justify-between">
-            <div className="about-left flex-1 relative">
-              <img src={about_img} alt="" className="about-img w-full rounded-lg" />
+          <div className="about flex flex-col lg:flex-row items-center justify-between">
+            <div className="about-left flex-1 lg:relative lg:w-1/2">
+              <img src={about_img} alt="" className="about-img w-full lg:rounded-lg" />
               <img
                 src={play_icon}
                 alt=""
-                className="play-icon w-16 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                className="play-icon w-16 lg:absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
               />
             </div>
-            <div className="about-right flex-1 pl-12">
+            <div className="about-right flex-1 lg:pl-12 lg:w-1/2">
               <h3 className="font-bold text-blue-700 text-lg pb-2">About</h3>
               <h2 className="text-3xl font-bold">Career Development Cell</h2>
               <p className="text-gray-700 text-base mb-4">

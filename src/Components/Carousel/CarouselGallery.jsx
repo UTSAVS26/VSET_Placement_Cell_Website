@@ -11,17 +11,6 @@ const Carousel = () => {
     let isDragging = false;
     let startX, scrollLeft;
 
-    const autoScroll = () => {
-      if (carousel.scrollLeft === carousel.scrollWidth - carousel.clientWidth) {
-        carousel.scrollLeft = 0;
-      } else {
-        carousel.scrollLeft += 1;
-      }
-      requestAnimationFrame(autoScroll);
-    };
-
-    autoScroll();
-
     const handleMouseDown = (e) => {
       isDragging = true;
       startX = e.pageX - carousel.offsetLeft;
@@ -55,41 +44,41 @@ const Carousel = () => {
     <div
       ref={carouselRef}
       className="flex overflow-x-auto scroll-smooth no-scrollbar mx-auto"
-      style={{ width: "100%", maxWidth: "1500px", height: "600px" }}
+      style={{ maxWidth: "100%", height: "auto" }}
     >
-      <div className="relative w-800px h-400px shrink-0 mr-4"> {/* Set fixed width and height for images */}
-        <img src={img1} className="w-full h-full object-cover" alt="Gallery" /> {/* Ensure images cover the container */}
-        <div className="absolute inset-0 flex items-end justify-center text-center p-4 text-white bg-black bg-opacity-50">
+      <div className="relative flex-shrink-0 w-full md:w-1/3 lg:w-1/4 mr-4">
+        <img src={img1} className="w-full h-auto object-cover rounded-xl" alt="Gallery" />
+        <div className="absolute inset-0 flex items-end justify-center text-center p-4 text-white bg-black bg-opacity-50 rounded-xl">
           <h2 className="text-2xl font-bold">Content Here</h2>
         </div>
       </div>
-      <div className="relative w-800px h-400px shrink-0 mr-4"> {/* Set fixed width and height for images */}
-        <img src={img2} className="w-full h-full object-cover" alt="Gallery" /> {/* Ensure images cover the container */}
-        <div className="absolute inset-0 flex items-end justify-center text-center p-4 text-white bg-black bg-opacity-50">
+      <div className="relative flex-shrink-0 w-full md:w-1/3 lg:w-1/4 mr-4">
+        <img src={img2} className="w-full h-auto object-cover rounded-xl" alt="Gallery" />
+        <div className="absolute inset-0 flex items-end justify-center text-center p-4 text-white bg-black bg-opacity-50 rounded-xl">
           <h2 className="text-2xl font-bold">Content Here</h2>
         </div>
       </div>
-      <div className="relative w-800px h-400px shrink-0 mr-4"> {/* Set fixed width and height for images */}
-        <img src={img3} className="w-full h-full object-cover" alt="Gallery" /> {/* Ensure images cover the container */}
-        <div className="absolute inset-0 flex items-end justify-center text-center p-4 text-white bg-black bg-opacity-50">
+      <div className="relative flex-shrink-0 w-full md:w-1/3 lg:w-1/4 mr-4">
+        <img src={img3} className="w-full h-auto object-cover rounded-xl" alt="Gallery" />
+        <div className="absolute inset-0 flex items-end justify-center text-center p-4 text-white bg-black bg-opacity-50 rounded-xl">
           <h2 className="text-2xl font-bold">Content Here</h2>
         </div>
       </div>
-      <div className="relative w-800px h-400px shrink-0 mr-4"> {/* Set fixed width and height for images */}
-        <img src={img1} className="w-full h-full object-cover" alt="Gallery" /> {/* Ensure images cover the container */}
-        <div className="absolute inset-0 flex items-end justify-center text-center p-4 text-white bg-black bg-opacity-50">
+      <div className="relative flex-shrink-0 w-full md:w-1/3 lg:w-1/4 mr-4">
+        <img src={img1} className="w-full h-auto object-cover rounded-xl" alt="Gallery" />
+        <div className="absolute inset-0 flex items-end justify-center text-center p-4 text-white bg-black bg-opacity-50 rounded-xl">
           <h2 className="text-2xl font-bold">Content Here</h2>
         </div>
       </div>
-      <div className="relative w-800px h-400px shrink-0 mr-4"> {/* Set fixed width and height for images */}
-        <img src={img2} className="w-full h-full object-cover" alt="Gallery" /> {/* Ensure images cover the container */}
-        <div className="absolute inset-0 flex items-end justify-center text-center p-4 text-white bg-black bg-opacity-50">
+      <div className="relative flex-shrink-0 w-full md:w-1/3 lg:w-1/4 mr-4">
+        <img src={img2} className="w-full h-auto object-cover rounded-xl" alt="Gallery" />
+        <div className="absolute inset-0 flex items-end justify-center text-center p-4 text-white bg-black bg-opacity-50 rounded-xl">
           <h2 className="text-2xl font-bold">Content Here</h2>
         </div>
       </div>
-      <div className="relative w-800px h-400px shrink-0 mr-4"> {/* Set fixed width and height for images */}
-        <img src={img3} className="w-full h-full object-cover" alt="Gallery" /> {/* Ensure images cover the container */}
-        <div className="absolute inset-0 flex items-end justify-center text-center p-4 text-white bg-black bg-opacity-50">
+      <div className="relative flex-shrink-0 w-full md:w-1/3 lg:w-1/4 mr-4">
+        <img src={img3} className="w-full h-auto object-cover rounded-xl" alt="Gallery" />
+        <div className="absolute inset-0 flex items-end justify-center text-center p-4 text-white bg-black bg-opacity-50 rounded-xl">
           <h2 className="text-2xl font-bold">Content Here</h2>
         </div>
       </div>

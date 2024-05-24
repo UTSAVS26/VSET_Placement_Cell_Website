@@ -10,21 +10,19 @@ const Degree = () => {
 
   return (
     <div className="flex flex-col items-center mt-20">
-      <div className="flex justify-around p-4 w-full bg-yellow-200">
+      <div className="flex flex-wrap justify-center p-4 w-full bg-yellow-200">
         {courseData.map((course, index) => (
           <button
             key={index}
             onClick={() => handleSelect(index)}
-            className={`relative py-2 px-4 m-2 w-1/5 transition duration-500 ${
+            className={`relative py-2 px-4 m-2 w-full md:w-auto md:min-w-[10rem] transition duration-500 ${
               selectedCourse === index ? 'bg-[#e4443f] text-white' : 'bg-yellow-300 text-black'
             }`}
             style={{ transitionDelay: selectedCourse === index ? '0s' : '0.3s' }}
           >
             {course.name}
             {selectedCourse === index && (
-              <span className="absolute left-1/2 transform -translate-x-1/2 -bottom-2 text-[#e4443f]">
-                ▼
-              </span>
+              <span className="absolute left-1/2 transform -translate-x-1/2 -bottom-2 text-[#e4443f]">▼</span>
             )}
           </button>
         ))}
