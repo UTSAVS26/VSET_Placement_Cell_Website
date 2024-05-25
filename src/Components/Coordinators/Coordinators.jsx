@@ -10,7 +10,7 @@ const Coordinators = () => {
           {facultyCoordinators.map((coordinator) => (
             <div key={coordinator.id} className="bg-blue-200 text-black p-4 rounded-lg mb-4 flex flex-col items-center shadow-md">
               <div className="w-32 h-32 rounded-full overflow-hidden mb-4 bg-black flex items-center justify-center">
-                <img src={coordinator.image} alt={coordinator.name} className="max-w-full max-h-full" />
+                <img src={coordinator.image} alt={coordinator.name} className="w-full h-full object-cover" />
               </div>
               <div className="text-center">
                 <h3 className="text-xl font-semibold mb-2">{coordinator.name}</h3>
@@ -28,7 +28,7 @@ const Coordinators = () => {
           {studentCoordinators.map((coordinator) => (
             <div key={coordinator.id} className="bg-blue-200 text-black p-4 rounded-lg mb-4 flex flex-col items-center shadow-md">
               <div className="w-32 h-32 rounded-full overflow-hidden mb-4 bg-black flex items-center justify-center">
-                <img src={coordinator.image} alt={coordinator.name} className="max-w-full max-h-full" />
+                <img src={coordinator.image} alt={coordinator.name} className="w-full h-full object-cover" />
               </div>
               <div className="text-center">
                 <h3 className="text-xl font-semibold mb-2">{coordinator.name}</h3>

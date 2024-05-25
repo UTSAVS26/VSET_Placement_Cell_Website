@@ -1,17 +1,23 @@
+import nikitaSharmaImg from '../../assets/coordinators/faculty/Dr-Nikita-Sharma.jpg';
+import utsavSinghalImg from '../../assets/coordinators/student/utsav-singhal.jpg';
+import sanyaBeheraImg from '../../assets/coordinators/student/sanya-behera.jpg';
+import ayushSinghalImg from '../../assets/coordinators/student/ayush-singhal.jpg';
+import lakshaySharmaImg from '../../assets/coordinators/student/lakshay-sharma.jpg';
+
 export const facultyCoordinators = [
     {
-      id: 1,
-      name: 'John Doe',
-      department: 'Computer Science',
-      email: 'john.doe@example.com',
-      image: 'https://via.placeholder.com/150',
+        id: 1,
+        name: 'Harsh Sir',
+        department: 'Computer Science',
+        email: '@vips.edu',
+        image: 'https://via.placeholder.com/150',
     },
     {
-      id: 2,
-      name: 'Jane Smith',
-      department: 'Electrical Engineering',
-      email: 'jane.smith@example.com',
-      image: 'https://via.placeholder.com/150',
+        id: 2,
+        name: 'Dr. Nikita Sharma',
+        department: 'Computer Science',
+        email: 'nikita.sharma@vips.edu',
+        image: nikitaSharmaImg,
     },
     {
       id: 3,
@@ -22,34 +28,6 @@ export const facultyCoordinators = [
     },
     {
       id: 4,
-      name: 'Emily Brown',
-      department: 'Civil Engineering',
-      email: 'emily.brown@example.com',
-      image: 'https://via.placeholder.com/150',
-    },
-    {
-      id: 5,
-      name: 'John Doe',
-      department: 'Computer Science',
-      email: 'john.doe@example.com',
-      image: 'https://via.placeholder.com/150',
-    },
-    {
-      id: 6,
-      name: 'Jane Smith',
-      department: 'Electrical Engineering',
-      email: 'jane.smith@example.com',
-      image: 'https://via.placeholder.com/150',
-    },
-    {
-      id: 7,
-      name: 'Michael Johnson',
-      department: 'Mechanical Engineering',
-      email: 'michael.johnson@example.com',
-      image: 'https://via.placeholder.com/150',
-    },
-    {
-      id: 8,
       name: 'Emily Brown',
       department: 'Civil Engineering',
       email: 'emily.brown@example.com',
@@ -60,59 +38,31 @@ export const facultyCoordinators = [
   export const studentCoordinators = [
     {
       id: 1,
-      name: 'Alice Johnson',
-      batch: '2023',
-      branch: 'Computer Science',
-      image: 'https://via.placeholder.com/150',
+      name: 'Utsav Singhal',
+      batch: '2026',
+      branch: 'Artificial Intelligence & Machine Learning',
+      image: utsavSinghalImg,
     },
     {
       id: 2,
-      name: 'Bob Williams',
-      batch: '2023',
-      branch: 'Electrical Engineering',
-      image: 'https://via.placeholder.com/150',
+      name: 'Sanya Behera',
+      batch: '2026',
+      branch: 'Artificial Intelligence & Machine Learning',
+      image: sanyaBeheraImg,
     },
     {
       id: 3,
-      name: 'Emma Davis',
-      batch: '2023',
-      branch: 'Mechanical Engineering',
-      image: 'https://via.placeholder.com/150',
+      name: 'Ayush Singhal',
+      batch: '2026',
+      branch: 'Artificial Intelligence & Machine Learning',
+      image: ayushSinghalImg,
     },
     {
       id: 4,
-      name: 'William Wilson',
-      batch: '2023',
-      branch: 'Civil Engineering',
-      image: 'https://via.placeholder.com/150',
-    },
-    {
-      id: 5,
-      name: 'Alice Johnson',
-      batch: '2023',
-      branch: 'Computer Science',
-      image: 'https://via.placeholder.com/150',
-    },
-    {
-      id: 6,
-      name: 'Bob Williams',
-      batch: '2023',
-      branch: 'Electrical Engineering',
-      image: 'https://via.placeholder.com/150',
-    },
-    {
-      id: 7,
-      name: 'Emma Davis',
-      batch: '2023',
-      branch: 'Mechanical Engineering',
-      image: 'https://via.placeholder.com/150',
-    },
-    {
-      id: 8,
-      name: 'William Wilson',
-      batch: '2023',
-      branch: 'Civil Engineering',
-      image: 'https://via.placeholder.com/150',
+      name: 'Lakshay Sharma',
+      batch: '2026',
+      branch: 'Artificial Intelligence & Machine Learning',
+      image: lakshaySharmaImg,
     },
   ];
   

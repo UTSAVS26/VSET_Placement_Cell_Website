@@ -5,17 +5,17 @@ import play_icon from '../../assets/play-icon.png';
 const Recruit = () => {
     return (
         <div className="container mx-auto px-4 lg:px-0" style={{ marginTop: '150px' }}>
-            <div className="about-container mb-20">
-                <div className="about flex flex-col lg:flex-row items-center justify-between">
-                    <div className="about-left flex-1 lg:relative lg:w-full lg:max-w-lg">
-                        <img src={about_img} alt="" className="about-img w-full rounded-lg" />
+            <div className="about-container mb-10 lg:mb-20">
+                <div className="about flex flex-col lg:flex-row items-center justify-between mb-8">
+                    <div className="about-left flex-4 relative mb-6 md:mb-0">
+                        <img src={about_img} alt="" className="about-img w-full rounded-lg mb-4 lg:mb-0 lg:mr-4" />
                         <img
                             src={play_icon}
                             alt=""
                             className="play-icon w-16 lg:absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
                         />
                     </div>
-                    <div className="about-right flex-1 lg:pl-12 lg:w-full lg:max-w-lg mt-8 lg:mt-0">
+                    <div className="about-right flex-6 md:pl-12">
                         <h2 className="text-3xl font-bold mb-4 lg:mb-8">Message to the Recruiters</h2>
                         <p className="text-gray-700 text-base mb-4">
                             Our students, faculty, and management work hard and collaborate comprehensively to achieve excellence in the disciplines of engineering, technology, and innovation required to fuel smart automation, industrial revolution, development of intelligent systems and devices, and improve the quality of life of mankind. The curriculum and infrastructure at VIPS are a testament to excellence in digital and technological advancements. Our students are assured to fulfill the great prospects and promises of the fourth industrial revolution with a strong emphasis on productivity and efficiency.
@@ -27,7 +27,7 @@ const Recruit = () => {
                     </div>
                 </div>
             </div>
-            <div className="new-section-container mt-20">
+            <div className="new-section-container mt-10 lg:mt-20">
                 <h2 className="text-3xl font-bold mb-8 text-center">Why Recruit from VIPS-TC?</h2>
                 <p className="mb-8">
                     <strong><u>A. Rigorous student selection process -</u></strong> At VIPS, we pride ourselves on our highly competitive admissions process. Our students are selected based on their academic achievements at the school level and through our rigorous entrance examinations. We are committed to a merit-based approach and do not offer any form of quota system.<br /><br />

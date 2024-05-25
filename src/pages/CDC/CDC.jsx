@@ -19,7 +19,7 @@ const CDC = () => {
             </div>
             <div className="about-right flex-1 lg:pl-12 lg:w-1/2">
               <h3 className="font-bold text-blue-700 text-lg pb-2">About</h3>
-              <h2 className="text-3xl font-bold">Career Development Cell</h2>
+              <h2 className="text-3xl font-bold">Ascend - Career Development Center</h2>
               <p className="text-gray-700 text-base mb-4">
                 The Career Development Cell at VIPS-TC is firmly committed to empowering students to achieve their professional aspirations. We prioritize career guidance, skill development, and industry exposure to ensure that every student is well-equipped to succeed in the competitive job market. Through workshops, seminars, and placement assistance, we aim to bridge the gap between academia and industry, nurturing talent and fostering a culture of innovation and excellence.
               </p>
