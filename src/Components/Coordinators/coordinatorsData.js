@@ -1,4 +1,7 @@
 import nikitaSharmaImg from '../../assets/coordinators/faculty/Dr-Nikita-Sharma.jpg';
+import shivankaImg from '../../assets/coordinators/faculty/Dr-Shivanka.jpg';
+import nishaChughImg from '../../assets/coordinators/faculty/Dr.-Nisha-Chugh.jpg';
+
 import utsavSinghalImg from '../../assets/coordinators/student/utsav-singhal.jpg';
 import sanyaBeheraImg from '../../assets/coordinators/student/sanya-behera.jpg';
 import ayushSinghalImg from '../../assets/coordinators/student/ayush-singhal.jpg';
@@ -7,9 +10,9 @@ import lakshaySharmaImg from '../../assets/coordinators/student/lakshay-sharma.j
 export const facultyCoordinators = [
     {
         id: 1,
-        name: 'Harsh Sir',
+        name: 'Dr. Harsh Juneja',
         department: 'Computer Science',
-        email: '@vips.edu',
+        email: 'harsh.juneja@vips.edu',
         image: 'https://via.placeholder.com/150',
     },
     {
@@ -21,17 +24,24 @@ export const facultyCoordinators = [
     },
     {
       id: 3,
-      name: 'Michael Johnson',
+      name: 'Dr. Ankur',
       department: 'Mechanical Engineering',
-      email: 'michael.johnson@example.com',
+      email: 'ankur@vips.edu',
       image: 'https://via.placeholder.com/150',
     },
     {
       id: 4,
-      name: 'Emily Brown',
+      name: 'Dr. Nisha Chugh',
       department: 'Civil Engineering',
-      email: 'emily.brown@example.com',
-      image: 'https://via.placeholder.com/150',
+      email: 'nisha.chugh@vips.edu',
+      image: nishaChughImg,
+    },
+    {
+      id: 5,
+      name: 'Dr. Shivanka',
+      department: 'Civil Engineering',
+      email: 'shivanka@vips.edu',
+      image: shivankaImg,
     },
   ];
   
